@@ -1,5 +1,19 @@
-<ul id="messages"></ul>
-<div class="input-container">
-  <input id="m" autocomplete="off" placeholder="Type your message here..." />
-  <button id="send">Send</button>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Group Chat</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <ul id="messages"></ul>
+  <div class="input-container">
+    <input id="m" autocomplete="off" placeholder="Type your message here..." />
+    <button id="send">Send</button>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.3.2/socket.io.js" integrity="sha512-91C8CByYMfj3a5yLVaNV0+4ooSZMlD12oUcMCYx7DE8uq8fIRmrkOg3wS0A+6stPOe6GBCZMBRzW5iDzrjz3LA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
+</body>
+</html>
